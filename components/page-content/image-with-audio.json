@@ -2,10 +2,14 @@
   "collectionName": "components_page_content_image_with_audios",
   "info": {
     "name": "image-with-audio",
-    "icon": "volume-up"
+    "icon": "volume-up",
+    "description": ""
   },
   "options": {},
   "attributes": {
+    "title": {
+      "type": "string"
+    },
     "pageInfo": {
       "type": "component",
       "repeatable": false,
@@ -21,7 +25,7 @@
         "images"
       ],
       "plugin": "upload",
-      "required": false,
+      "required": true,
       "pluginOptions": {}
     },
     "audio": {
@@ -31,7 +35,7 @@
         "files"
       ],
       "plugin": "upload",
-      "required": false,
+      "required": true,
       "pluginOptions": {}
     }
   }
