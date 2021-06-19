@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_games_true_or_false_answers",
+  "info": {
+    "name": "TrueOrFalseAnswer",
+    "icon": "american-sign-language-interpreting",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "AnswerText": {
+      "type": "string"
+    },
+    "IsRightAnswer": {
+      "type": "boolean"
+    }
+  }
+}

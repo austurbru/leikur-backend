@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_content_free_texts",
+  "info": {
+    "name": "FreeText",
+    "icon": "align-center",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Text": {
+      "type": "richtext"
+    },
+    "wrong": {
+      "type": "boolean"
+    },
+    "pageInfo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page-info.page-info",
+      "required": true
+    }
+  }
+}

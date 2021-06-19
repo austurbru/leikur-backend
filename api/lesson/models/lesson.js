@@ -13,6 +13,16 @@ module.exports = {
         var res = data.key.split("-");
         data.levelNo = res[0];
       }
+
+      if (data.pages) {
+        //This generates the slug in each and every page in the lesson
+        for (let i = 0; i < data.pages.length; i++) {
+          data.pages[i].pageInfo = {
+            pageNo: i + 1,
+            slug: `${data.key}-${i + 1}`,
+          };
+        }
+      }
     },
 
     async beforeUpdate(params, data) {
@@ -25,6 +35,16 @@ module.exports = {
       if (data.key) {
         var res = data.key.split("-");
         data.levelNo = res[0];
+      }
+
+      if (data.pages) {
+        //This generates the slug in each and every page in the lesson
+        for (let i = 0; i < data.pages.length; i++) {
+          data.pages[i].pageInfo = {
+            pageNo: i + 1,
+            slug: `${data.key}-${i + 1}`,
+          };
+        }
       }
     },
   },

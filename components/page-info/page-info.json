@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_page_info_page_infos",
+  "info": {
+    "name": "pageInfo",
+    "icon": "info"
+  },
+  "options": {},
+  "attributes": {
+    "pageNo": {
+      "type": "integer"
+    },
+    "slug": {
+      "type": "string"
+    }
+  }
+}

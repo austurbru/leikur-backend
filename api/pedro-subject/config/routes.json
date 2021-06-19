@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/pages",
-      "handler": "page.find",
+      "path": "/pedro-subjects",
+      "handler": "pedro-subject.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/pages/count",
-      "handler": "page.count",
+      "path": "/pedro-subjects/count",
+      "handler": "pedro-subject.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/pages/:id",
-      "handler": "page.findOne",
+      "path": "/pedro-subjects/:id",
+      "handler": "pedro-subject.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/pages",
-      "handler": "page.create",
+      "path": "/pedro-subjects",
+      "handler": "pedro-subject.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/pages/:id",
-      "handler": "page.update",
+      "path": "/pedro-subjects/:id",
+      "handler": "pedro-subject.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/pages/:id",
-      "handler": "page.delete",
+      "path": "/pedro-subjects/:id",
+      "handler": "pedro-subject.delete",
       "config": {
         "policies": []
       }

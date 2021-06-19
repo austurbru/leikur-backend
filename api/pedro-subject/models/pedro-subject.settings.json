@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pedro_subjects",
+  "info": {
+    "name": "PedroLessons",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "Pages": {
+      "type": "dynamiczone",
+      "components": [
+        "content.free-text",
+        "games.true-or-false-game",
+        "content.video",
+        "games.true-or-false-answer"
+      ]
+    },
+    "theGamePedro": {
+      "type": "component",
+      "repeatable": true,
+      "component": "games.true-or-false-answer"
+    }
+  }
+}

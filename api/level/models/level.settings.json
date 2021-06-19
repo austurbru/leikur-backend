@@ -13,14 +13,12 @@
   "pluginOptions": {},
   "attributes": {
     "levelNo": {
-      "type": "integer"
+      "type": "integer",
+      "required": true,
+      "min": 1
     },
     "description": {
       "type": "string"
-    },
-    "lessons": {
-      "via": "level",
-      "collection": "lesson"
     },
     "image": {
       "model": "file",
@@ -33,6 +31,10 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
+    },
+    "lessons": {
+      "via": "level",
+      "collection": "lesson"
     }
   }
 }

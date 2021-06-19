@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_content_videos",
+  "info": {
+    "name": "Video",
+    "icon": "asterisk"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "VideoFile": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    }
+  }
+}

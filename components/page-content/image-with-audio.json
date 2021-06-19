@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_page_content_image_with_audios",
+  "info": {
+    "name": "image-with-audio",
+    "icon": "volume-up"
+  },
+  "options": {},
+  "attributes": {
+    "pageInfo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page-info.page-info"
+    },
+    "category": {
+      "model": "category"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "audio": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

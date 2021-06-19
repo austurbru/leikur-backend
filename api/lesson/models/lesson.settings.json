@@ -13,7 +13,9 @@
   "pluginOptions": {},
   "attributes": {
     "lessonNo": {
-      "type": "integer"
+      "type": "integer",
+      "required": true,
+      "min": 1
     },
     "description": {
       "type": "text"
@@ -30,10 +32,6 @@
       "required": false,
       "pluginOptions": {}
     },
-    "level": {
-      "via": "lessons",
-      "model": "level"
-    },
     "key": {
       "type": "uid",
       "required": true
@@ -42,8 +40,15 @@
       "type": "integer"
     },
     "pages": {
-      "via": "lesson",
-      "collection": "page"
+      "type": "dynamiczone",
+      "components": [
+        "page-content.image-with-audio",
+        "page-content.video-text"
+      ]
+    },
+    "level": {
+      "via": "lessons",
+      "model": "level"
     }
   }
 }

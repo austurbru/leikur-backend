@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_games_true_or_false_games",
+  "info": {
+    "name": "TrueOrFalseGame",
+    "icon": "atlas",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Answer": {
+      "type": "component",
+      "repeatable": true,
+      "component": "games.true-or-false-answer"
+    }
+  }
+}
