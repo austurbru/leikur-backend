@@ -76,6 +76,9 @@
     "currentCourse": {
       "via": "usersCurrentCourse",
       "model": "level"
+    },
+    "motto": {
+      "type": "string"
     }
   }
 }
