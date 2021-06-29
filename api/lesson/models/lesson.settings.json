@@ -43,7 +43,8 @@
       "type": "dynamiczone",
       "components": [
         "page-content.image-with-audio",
-        "page-content.video-text"
+        "page-content.video-text",
+        "page-content.super-simple-page"
       ]
     },
     "level": {

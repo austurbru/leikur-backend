@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_page_content_super_simple_pages",
+  "info": {
+    "name": "super-simple-page",
+    "icon": "grin",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "pageInfo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page-info.page-info"
+    },
+    "category": {
+      "model": "category"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}
