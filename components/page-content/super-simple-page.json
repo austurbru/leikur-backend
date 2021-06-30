@@ -20,6 +20,10 @@
     },
     "content": {
       "type": "richtext"
+    },
+    "lessonTotalPageCount": {
+      "type": "integer",
+      "default": 0
     }
   }
 }
