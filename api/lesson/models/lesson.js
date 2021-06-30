@@ -19,7 +19,7 @@ module.exports = {
 
       if (data.pages) {
         //This generates the slug in each and every page in the lesson
-
+        //Puts the page number and the total page count of the lesson
         for (let i = 0; i < data.pages.length; i++) {
           data.pages[i].pageInfo = {
             pageNo: i + 1,
@@ -46,7 +46,7 @@ module.exports = {
 
       if (data.pages) {
         //This generates the slug in each and every page in the lesson
-
+        //Puts the page number and the total page count of the lesson
         for (let i = 0; i < data.pages.length; i++) {
           data.pages[i].pageInfo = {
             pageNo: i + 1,
