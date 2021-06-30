@@ -37,10 +37,6 @@
       "plugin": "upload",
       "required": true,
       "pluginOptions": {}
-    },
-    "lessonTotalPageCount": {
-      "type": "integer",
-      "default": 0
     }
   }
 }

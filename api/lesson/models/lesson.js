@@ -19,10 +19,12 @@ module.exports = {
 
       if (data.pages) {
         //This generates the slug in each and every page in the lesson
+
         for (let i = 0; i < data.pages.length; i++) {
           data.pages[i].pageInfo = {
             pageNo: i + 1,
             slug: `${data.key}-${i + 1}`,
+            lessonTotalPageCount: data.pages.length,
           };
         }
       }
@@ -44,10 +46,12 @@ module.exports = {
 
       if (data.pages) {
         //This generates the slug in each and every page in the lesson
+
         for (let i = 0; i < data.pages.length; i++) {
           data.pages[i].pageInfo = {
             pageNo: i + 1,
             slug: `${data.key}-${i + 1}`,
+            lessonTotalPageCount: data.pages.length,
           };
         }
       }

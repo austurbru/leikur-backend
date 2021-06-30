@@ -12,6 +12,10 @@
     },
     "slug": {
       "type": "string"
+    },
+    "lessonTotalPageCount": {
+      "type": "integer",
+      "default": 0
     }
   }
 }
