@@ -59,11 +59,6 @@
       "plugin": "users-permissions",
       "configurable": false
     },
-    "lessonsCompleted": {
-      "via": "usersLessonsCompleted",
-      "collection": "lesson",
-      "dominant": true
-    },
     "coursesCompleted": {
       "via": "usersCoursesCompleted",
       "collection": "level",
@@ -79,6 +74,11 @@
     },
     "motto": {
       "type": "string"
+    },
+    "lessonsCompleted": {
+      "type": "component",
+      "repeatable": true,
+      "component": "completed-items.lesson-keys"
     }
   }
 }

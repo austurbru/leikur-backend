@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_completed_items_lesson_keys",
+  "info": {
+    "name": "lessonKeys",
+    "icon": "share"
+  },
+  "options": {},
+  "attributes": {
+    "lessonKey": {
+      "type": "string"
+    }
+  }
+}
