@@ -76,9 +76,7 @@
       "type": "string"
     },
     "lessonsCompleted": {
-      "type": "component",
-      "repeatable": true,
-      "component": "completed-items.lesson-keys"
+      "type": "json"
     }
   }
 }
