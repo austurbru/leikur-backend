@@ -51,6 +51,11 @@
       "via": "lessons",
       "model": "level"
     },
+    "usersLessonsCompleted": {
+      "via": "lessonsCompleted",
+      "plugin": "users-permissions",
+      "collection": "user"
+    },
     "usersCurrentLesson": {
       "via": "currentLesson",
       "plugin": "users-permissions",
