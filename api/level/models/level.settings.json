@@ -36,11 +36,6 @@
       "via": "level",
       "collection": "lesson"
     },
-    "usersCoursesCompleted": {
-      "via": "coursesCompleted",
-      "plugin": "users-permissions",
-      "collection": "user"
-    },
     "usersCurrentCourse": {
       "via": "currentCourse",
       "plugin": "users-permissions",

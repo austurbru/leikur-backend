@@ -63,7 +63,8 @@
         "Red",
         "Green",
         "Blue"
-      ]
+      ],
+      "required": true
     }
   }
 }
