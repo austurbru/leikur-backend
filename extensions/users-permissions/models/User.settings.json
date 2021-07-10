@@ -65,10 +65,6 @@
     "currentLesson": {
       "via": "usersCurrentLesson",
       "model": "lesson"
-    },
-    "currentCourse": {
-      "via": "usersCurrentCourse",
-      "model": "level"
     }
   }
 }

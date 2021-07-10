@@ -36,11 +36,6 @@
       "via": "level",
       "collection": "lesson"
     },
-    "usersCurrentCourse": {
-      "via": "currentCourse",
-      "plugin": "users-permissions",
-      "collection": "user"
-    },
     "color": {
       "type": "enumeration",
       "enum": [
@@ -48,7 +43,8 @@
         "Red",
         "Green",
         "Blue"
-      ]
+      ],
+      "required": true
     }
   }
 }
