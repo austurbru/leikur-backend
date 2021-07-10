@@ -65,6 +65,9 @@
     "currentLesson": {
       "via": "usersCurrentLesson",
       "model": "lesson"
+    },
+    "currentPageSlug": {
+      "type": "string"
     }
   }
 }
