@@ -65,6 +65,9 @@
         "Blue"
       ],
       "required": true
+    },
+    "title": {
+      "type": "string"
     }
   }
 }
